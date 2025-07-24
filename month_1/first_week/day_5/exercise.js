@@ -15,19 +15,19 @@
 
 
 // global
-// let x = 10; 
-// function printX() {
-//   console.log(x); 
-// }
-
-// printX(); 
-// console.log(x); 
-
-// local
-function myFunction() {
-  let y = 5; // Local variable
-  console.log(y);
+let x = 10; 
+function printX() {
+  console.log(x); 
 }
 
-myFunction(); // Output: 5
-console.log(y); // ❌ Error: y is not defined
+printX(); 
+console.log(x); 
+
+// local
+// function myFunction() {
+//   let y = 5; 
+//   console.log(y);
+// }
+
+// myFunction();  
+// console.log(y); 
