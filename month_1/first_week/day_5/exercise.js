@@ -8,26 +8,29 @@
 // }
 // sayHello();
 
+
+
 // let numA=2;
 // let numB=5;
 // let sum=numA+numB;
 // console.log("the sum is", sum);
 
 
-// global
-let x = 10; 
-function printX() {
-  console.log(x); 
-}
 
-printX(); 
-console.log(x); 
-
-// local
-// function myFunction() {
-//   let y = 5; 
-//   console.log(y);
+// local:
+// let Y=50;
+// function printY(){
+//   console.log(Y);
 // }
+// printY();
+// console.log(Y);
 
-// myFunction();  
-// console.log(y); 
+
+
+
+// global:
+var globalmessage="hello guys";
+function showmessage(){
+  console.log(globalmessage);
+}
+showmessage();
